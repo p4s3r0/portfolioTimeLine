@@ -30,5 +30,5 @@ const main = gsap.timeline({
     end: "bottom center"
   }
 })
-.from(".theLine", {drawSVG:0, duration:1}, 0)
+.from(".theLine", {drawSVG:-10, duration:1}, 0)
 .add(pulses, 0)

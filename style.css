@@ -71,17 +71,32 @@ text {
 @media screen and (max-width: 1000px){
   svg {
     margin-left: 60vw;
-    margin-top: 120vh;
+    margin-top: -40vh;
     transform: scale(1.7);
   }
-
+  .lifeline {
+    margin-top: -50vh;
+  }
   .title {
     font-size: 50px;
     text-align: center;
+    width: 160vw;
   }
 
   body {
     width: 150vw;
+  }
+
+  html {
+    width: 160vw;
+  }
+
+  #svgTitleTop {
+    margin-top: 100vh;
+  }
+  #svgTitleBottom {
+    margin-left: 5vw;
+    margin-top: -70vh;
   }
 }
 
