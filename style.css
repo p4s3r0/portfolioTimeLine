@@ -19,7 +19,7 @@ svg {
 }
 
 .ball {
-  fill: white;
+  fill: cyan;
   visibility: hidden;
   transform: scale(1.0);
 }
@@ -46,10 +46,6 @@ text {
     margin-top: 120vh;
     transform: scale(1.7);
     width: 100vw;
-  }
-
-  .ball {
-    fill: green;
   }
 }
 
