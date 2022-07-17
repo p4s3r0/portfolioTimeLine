@@ -1,11 +1,14 @@
  body {
-  height: 400vh;
   background-color: rgba(0, 0, 0, 0.882);
   color: white;
   overflow-x: hidden;
   font-family: 'Special Elite', cursive;
+  width: 100vw;
 }
 
+html {
+  width: 100vw;
+}
 
 
 
@@ -60,19 +63,25 @@ text {
 #svgTitleTop {
   margin-left: 5vw;
 }
+#svgTitleBottom {
+  margin-left: 5vw;
+  margin-top: -70vh;
+}
 
 @media screen and (max-width: 1000px){
   svg {
     margin-left: 60vw;
     margin-top: 120vh;
     transform: scale(1.7);
-    width: 100vw;
   }
 
   .title {
-    width: 100%;
     font-size: 50px;
     text-align: center;
+  }
+
+  body {
+    width: 150vw;
   }
 }
 
