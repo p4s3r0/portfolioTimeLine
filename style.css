@@ -43,7 +43,7 @@ text {
 
 @media screen and (max-width: 1000px){
   svg {
-    margin-left: 47vw;
+    margin-left: 49vw;
     margin-top: 120vh;
     transform: scale(1.8);
   }
