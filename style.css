@@ -1,11 +1,9 @@
  body {
-    height: 400vh;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.882);
-    color: white;
-    overflow-x: hidden;
+  height: 400vh;
+  background-color: rgba(0, 0, 0, 0.882);
+  color: white;
+  overflow-x: hidden;
   font-family: 'Special Elite', cursive;
-
 }
 
 
@@ -72,8 +70,9 @@ text {
   }
 
   .title {
-    width: 150vw;
+    width: 100%;
     font-size: 50px;
+    text-align: center;
   }
 }
 
