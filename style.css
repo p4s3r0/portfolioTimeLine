@@ -46,11 +46,11 @@ text {
     margin-left: 40vw;
     margin-top: 120vh;
     min-width:1000px;
-    transform: scale(1.6);
+    transform: scale(1.7);
   }
 
   .ball {
-    fill: green;
+    fill: purple;
   }
 }
 
