@@ -45,8 +45,7 @@ text {
   svg {
     margin-left: 47vw;
     margin-top: 120vh;
-    min-width:1000px;
-    transform: scale(1.9);
+    transform: scale(2);
   }
 
   .ball {
