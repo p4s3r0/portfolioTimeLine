@@ -46,11 +46,11 @@ text {
     margin-left: 45vw;
     margin-top: 120vh;
     min-width:1000px;
-    transform: scale(1.8);
+    transform: scale(1.9);
   }
 
   .ball {
-    fill: rgb(6, 234, 255);
+    fill: magenta;
   }
 }
 
