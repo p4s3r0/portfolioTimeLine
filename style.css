@@ -70,7 +70,7 @@ text {
 
 @media screen and (max-width: 1000px){
   svg {
-    margin-left: 60vw;
+    margin-left: 70vw;
     margin-top: -40vh;
     transform: scale(2.8);
   }
