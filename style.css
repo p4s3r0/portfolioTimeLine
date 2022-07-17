@@ -43,14 +43,14 @@ text {
 
 @media screen and (max-width: 1000px){
   svg {
-    margin-left: 20vw;
+    margin-left: 60vw;
     margin-top: 120vh;
     min-width:1000px;
     transform: scale(1.7);
   }
 
   .ball {
-    fill: blue;
+    fill: green;
   }
 }
 
