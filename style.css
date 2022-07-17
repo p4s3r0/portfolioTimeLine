@@ -43,9 +43,9 @@ text {
 
 @media screen and (max-width: 1000px){
   svg {
-    margin-left: 50vw;
+    margin-left: 55vw;
     margin-top: 120vh;
-    transform: scale(1.85);
+    transform: scale(1.84);
   }
 
   .ball {
