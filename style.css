@@ -45,11 +45,11 @@ text {
   svg {
     margin-left: 50vw;
     margin-top: 120vh;
-    transform: scale(1.82);
+    transform: scale(1.84);
   }
 
   .ball {
-    fill: cyan;
+    fill: magenta;
   }
 }
 
