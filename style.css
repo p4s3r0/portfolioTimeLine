@@ -93,10 +93,11 @@ text {
 
   #svgTitleTop {
     margin-top: 100vh;
+    margin-bottom: 20vh;
   }
   #svgTitleBottom {
     margin-left: 5vw;
-    margin-top: -70vh;
+    margin-top: -100vh;
   }
 }
 
