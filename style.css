@@ -1,9 +1,11 @@
-body {
+ body {
     height: 400vh;
-    width: 99%;
-    background-color: rgba(0, 0, 0, 0.813);
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.882);
     color: white;
     overflow-x: hidden;
+  font-family: 'Special Elite', cursive;
+
 }
 
 
@@ -15,8 +17,10 @@ body {
 
 svg {
   overflow: visible;
-  margin-top: 80vh;
+  margin-top: 0vh;
   margin-left: 30vw;
+  width: 70vw;
+  height: 200vh;
 }
 
 .ball {
@@ -33,12 +37,30 @@ svg {
 text {
   fill: white;
   font-size: 5px;
-  font-family: 'Special Elite', cursive;
   visibility: hidden;
 }
 
 .theLine {
   transform: scale(2.5);
+}
+
+.title {
+  margin-top: 50vh;
+  width: 100vw;
+  text-align: center;
+  margin-bottom: 40vh;
+}
+
+.codeTag {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.lifeline {
+  margin-top: 50vh;
+}
+
+#svgTitleTop {
+  margin-left: 5vw;
 }
 
 @media screen and (max-width: 1000px){
