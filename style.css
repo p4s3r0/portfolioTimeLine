@@ -1,0 +1,45 @@
+body {
+    height: 400vh;
+    width: 99%;
+    background-color: rgba(0, 0, 0, 0.813);
+    color: white;
+}
+
+
+
+
+.header-section {
+  margin: 100px auto 0;
+}
+
+svg {
+  overflow: visible;
+  margin-top: 80vh;
+  margin-left: 30vw;
+  min-width:1000px;
+}
+
+.ball {
+  fill: white;
+  visibility: hidden;
+  transform: scale(1.0);
+}
+
+.line {
+  fill: none;
+  stroke: white;
+  stroke-width: 2px;
+}
+text {
+  fill: white;
+  font-size: 5px;
+  font-family: 'Special Elite', cursive;
+  visibility: hidden;
+}
+
+.theLine {
+  transform: scale(2.5);
+}
+
+
+
