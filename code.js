@@ -14,11 +14,11 @@ const pulses = gsap.timeline({
   }})
 .to("#ballNow,  .Now", {}, 0) 
 .to("#ball2022, .T2022", {}, 0.05)
-.to("#ball2018, .T2018", {}, 0.25)
-.to("#ball2017, .T2017", {}, 0.3)
-.to("#ball2013, .T2013", {}, 0.52)
-.to("#ball2010, .T2010", {}, 0.8)
-.to("#ball1999, .T1999", {}, 1)
+.to("#ball2018, .T2018", {}, 0.13)
+.to("#ball2017, .T2017", {}, 0.16)
+.to("#ball2013, .T2013", {}, 0.25)
+.to("#ball2010, .T2010", {}, 0.40)
+.to("#ball1999, .T1999", {}, 0.45)
 .to("#ende", {}, 2)
 
 
@@ -30,5 +30,5 @@ const main = gsap.timeline({
     end: "bottom center"
   }
 })
-.from(".theLine", {drawSVG:-10, duration:1}, 0)
+.from(".theLine", {drawSVG:0, duration:0.5}, 0)
 .add(pulses, 0)

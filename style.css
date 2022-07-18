@@ -20,9 +20,10 @@ html {
 
 svg {
   overflow: visible;
-  margin-left: 30vw;
+  margin-left: 70vw;
   width: 70vw;
   height: 200vh;
+  margin-top: 150vh;
 }
 
 .ball {
