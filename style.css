@@ -19,7 +19,7 @@ html {
 }
 
 svg {
-  overflow: visible;
+  overflow: hidden;
   margin-left: 70vw;
   width: 70vw;
   height: 200vh;
