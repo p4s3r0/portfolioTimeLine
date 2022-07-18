@@ -1,3 +1,26 @@
+ 
+.desktop {
+  display: block;
+  visibility: visible; 
+}
+.mobile {
+  display: none;
+  visibility: none;
+}
+
+@media screen and (max-width: 1000px){
+  .desktop {
+    display: none;
+    visibility: none;
+  }
+  .mobile {
+    display: block;
+    visibility: none;
+  }
+}
+ 
+ 
+ 
  body {
   background-color: rgba(0, 0, 0, 0.882);
   color: white;
@@ -87,34 +110,6 @@ text {
 
 
 
-@media screen and (max-width: 1000px){
-  svg {
-    margin-left: 70vw;
-    margin-top: -40vh;
-    transform: scale(2.6);
-  }
-  .lifeline {
-    margin-top: 10vh;
-  }
-  .title {
-    font-size: 50px;
-    text-align: center;
-    width: 160vw;
-  }
-
-  body {
-    width: 150vw;
-  }
-
-  #svgTitleTop {
-    margin-top: 100vh;
-    margin-bottom: 900px;
-  }
-  #svgTitleBottom {
-    margin-left: 5vw;
-    margin-top: -80vh;
-  }
-}
 
 
 
