@@ -21,8 +21,16 @@ html {
 svg {
   margin-left: 30vw;
   height: 200vh;
-  margin-top: 0vh;
+  margin-top: 150vh;
   overflow: visible;
+}
+
+@media not all and (min-resolution:.001dpcm) { 
+  @supports (-webkit-appearance:none) {
+       svg {
+        margin-top: 0;
+       }
+  }
 }
 
 .ball {
