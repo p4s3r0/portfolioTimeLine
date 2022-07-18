@@ -17,6 +17,10 @@
     display: block;
     visibility: none;
   }
+
+  body {
+    font-size: 2em;
+  }
 }
  
  
