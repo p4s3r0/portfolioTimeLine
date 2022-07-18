@@ -19,11 +19,10 @@ html {
 }
 
 svg {
-  overflow: hidden;
-  margin-left: 70vw;
-  width: 70vw;
+  margin-left: 30vw;
   height: 200vh;
   margin-top: 150vh;
+  overflow: visible;
 }
 
 .ball {
@@ -119,13 +118,13 @@ text {
   }
 
   .title {
-    margin-top: 40vh;
+    margin-top: 50vh;
   }
 
   svg {
-    transform: scale(2);
-    margin-top: 100vh;
-    margin-left: 40vw;
+    transform: scale(2.3);
+    margin-top: 133vh;
+    margin-left: 25vw;
   }
 
   .ball {
@@ -135,6 +134,13 @@ text {
   text {
     visibility: visible;
     font-size: 10px;
+  }
+  #svgTitleTop {
+    margin-left: 2vw;
+  }
+  #svgTitleBottom {
+    margin-left: 2vw;
+    margin-top: -250vh;
   }
 }
 
