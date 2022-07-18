@@ -68,6 +68,20 @@ text {
   margin-top: -70vh;
 }
 
+.quickButtons {
+  margin-top: -25vh;
+  margin-left: 27vw;
+  position: absolute;
+}
+.button {
+  width: 10vw;
+  height: 10vw;
+  margin-right: 2vw;
+  border-radius: 5vw;
+  border: none;
+  background: cyan;
+}
+
 @media screen and (max-width: 1000px){
   svg {
     margin-left: 70vw;
