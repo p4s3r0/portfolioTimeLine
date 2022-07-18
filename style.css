@@ -20,7 +20,6 @@ html {
 
 svg {
   overflow: visible;
-  margin-top: 0vh;
   margin-left: 30vw;
   width: 70vw;
   height: 200vh;
@@ -120,6 +119,21 @@ text {
 
   .title {
     margin-top: 40vh;
+  }
+
+  svg {
+    transform: scale(2);
+    margin-top: 0vh;
+    margin-left: 40vw;
+  }
+
+  .ball {
+    visibility: visible;
+  }
+
+  text {
+    visibility: visible;
+    font-size: 10px;
   }
 }
 
