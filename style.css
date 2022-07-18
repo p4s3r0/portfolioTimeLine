@@ -1,29 +1,4 @@
- 
-.desktop {
-  display: block;
-  visibility: visible; 
-}
-.mobile {
-  display: none;
-  visibility: none;
-}
 
-@media screen and (max-width: 1000px){
-  .desktop {
-    display: none;
-    visibility: none;
-  }
-  .mobile {
-    display: block;
-    visibility: none;
-  }
-
-  body {
-    font-size: 2em;
-  }
-}
- 
- 
  
  body {
   background-color: rgba(0, 0, 0, 0.882);
@@ -114,6 +89,39 @@ text {
 
 
 
+
+
+
+
+
+ 
+.desktop {
+  display: block;
+  visibility: visible; 
+}
+.mobile {
+  display: none;
+  visibility: none;
+}
+
+@media screen and (max-width: 1000px){
+  .desktop {
+    display: none;
+    visibility: none;
+  }
+  .mobile {
+    display: block;
+    visibility: none;
+  }
+
+  body {
+    font-size: 2em;
+  }
+
+  .title {
+    margin-top: 40vh;
+  }
+}
 
 
 
