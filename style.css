@@ -3,11 +3,11 @@
   color: white;
   font-family: 'Special Elite', cursive;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 html {
   width: 100vw;
-  overflow-x: hidden;
 }
 
 
