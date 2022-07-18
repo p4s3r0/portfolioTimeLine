@@ -24,17 +24,7 @@ svg {
   margin-top: 150vh;
   overflow: visible;
 }
-/* FOR SAFARI ONLY */
-@media not all and (min-resolution:.001dpcm) { 
-  @supports (-webkit-appearance:none) {
-       svg {
-        margin-top: 0;
-       }
-       #svgTitleBottom {
-        margin-top: 210vh;
-      }
-  }
-}
+
 
 .ball {
   fill: cyan;
@@ -155,6 +145,18 @@ text {
   }
 }
 
+
+/* FOR SAFARI ONLY */
+@media not all and (min-resolution:.001dpcm) { 
+  @supports (-webkit-appearance:none) {
+       svg {
+        margin-top: 0;
+       }
+       #svgTitleBottom {
+        margin-top: 210vh;
+      }
+  }
+}
 
 
 
