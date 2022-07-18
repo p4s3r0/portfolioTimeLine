@@ -104,6 +104,21 @@ text {
   visibility: none;
 }
 
+
+
+
+/* FOR SAFARI ONLY */
+@media not all and (min-resolution:.001dpcm) { 
+  @supports (-webkit-appearance:none) {
+       svg {
+        margin-top: 0;
+       }
+       #svgTitleBottom {
+        margin-top: 10vh;
+      }
+  }
+}
+
 @media screen and (max-width: 1000px){
   .desktop {
     display: none;
@@ -144,19 +159,5 @@ text {
     margin-top: -240vh;
   }
 }
-
-
-/* FOR SAFARI ONLY */
-@media not all and (min-resolution:.001dpcm) { 
-  @supports (-webkit-appearance:none) {
-       svg {
-        margin-top: 0;
-       }
-       #svgTitleBottom {
-        margin-top: 10vh;
-      }
-  }
-}
-
 
 
